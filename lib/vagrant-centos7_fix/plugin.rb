@@ -18,6 +18,12 @@ module VagrantPlugins
         require_relative 'guest'
         Guest
       end
+
+      guest_capability('centos7', 'configure_networks') do
+        require Vagrant.source_root.join('plugins/guests/fedora/cap/configure_networks')
+        ::VagrantPlugins::GuestFedora::Cap::ConfigureNetworks
+      end
+
     end
 
   end
