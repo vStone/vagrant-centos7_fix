@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
 group :plugins do
+  gemspec
 #  gemspec
-  gem 'vagrant-centos7_fix', path: '.'
+#  gem 'vagrant-centos7_fix', path: '.'
 end
 
 group :development do
