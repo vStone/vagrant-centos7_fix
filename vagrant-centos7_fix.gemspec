@@ -1,15 +1,14 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'centos7_fix/version'
+$:.unshift File.expand_path('../lib', __FILE__)
+require 'vagrant-centos7_fix/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "vagrant-centos7_fix"
   spec.version       = VagrantPlugins::Centos7Fix::VERSION
   spec.authors       = ["Jan Vansteenkiste"]
   spec.email         = ["jan@vstone.eu"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Fix networking for CentOS 7.}
+  spec.description   = %q{Uses Fedora network scripts on CentOS 7.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
