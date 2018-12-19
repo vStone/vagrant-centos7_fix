@@ -1,3 +1,7 @@
+# EOL NOTICE
+
+This project is no longer needed since upstream has fixed this YEARS ago.
+
 # Vagrant::Centos7Fix
 
 TODO: Write a gem description
